@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1690173562112,637,T01_countries_list,200,OK,Thread Group 1-1,text,true,,6140,165,1,1,https://api.first.org/data/v1/countries,637,0,463
+1690173563151,1408,T02_countries/states,404,Not Found,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,1808,447,1,1,https://countriesnow.space/api/v0.1/countries/states/q?country=Philippines%20(the),733,0,58
+1690173563151,733,T02_countries/states-0,301,Moved Permanently,Thread Group 1-1,text,true,,935,239,1,1,https://countriesnow.space/api/v0.1/countries/states,733,0,58
+1690173563884,675,T02_countries/states-1,404,Not Found,Thread Group 1-1,text,false,,873,208,1,1,https://countriesnow.space/api/v0.1/countries/states/q?country=Philippines%20(the),675,0,0
+1690173572041,1702,T03_country/capital,404,Not Found,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,1814,449,1,1,https://countriesnow.space/api/v0.1/countries/capital/q?country=Philippines%20(the),690,0,0
+1690173572041,690,T03_country/capital-0,301,Moved Permanently,Thread Group 1-1,text,true,,942,240,1,1,https://countriesnow.space/api/v0.1/countries/capital,690,0,0
+1690173572731,1012,T03_country/capital-1,404,Not Found,Thread Group 1-1,text,false,,872,209,1,1,https://countriesnow.space/api/v0.1/countries/capital/q?country=Philippines%20(the),1012,0,0
+1690173573976,1382,T04_country/currency,404,Not Found,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,1822,451,1,1,https://countriesnow.space/api/v0.1/countries/currency/q?country=Philippines%20(the),686,0,0
+1690173573976,686,T04_country/currency-0,301,Moved Permanently,Thread Group 1-1,text,true,,942,241,1,1,https://countriesnow.space/api/v0.1/countries/currency,686,0,0
+1690173574663,695,T04_country/currency-1,404,Not Found,Thread Group 1-1,text,false,,880,210,1,1,https://countriesnow.space/api/v0.1/countries/currency/q?country=Philippines%20(the),695,0,0
+1690173575359,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,343,0,1,1,null,0,0,0
+1690173575983,613,T01_countries_list,200,OK,Thread Group 1-1,text,true,,6140,165,1,1,https://api.first.org/data/v1/countries,613,0,449
+1690173577172,1413,T02_countries/states,404,Not Found,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,1887,511,1,1,"https://countriesnow.space/api/v0.1/countries/states/q?country=Saint%20Helena,%20Ascension%20and%20Tristan%20da%20Cunha",740,0,52
+1690173577172,740,T02_countries/states-0,301,Moved Permanently,Thread Group 1-1,text,true,,1009,266,1,1,https://countriesnow.space/api/v0.1/countries/states,740,0,52
+1690173577912,673,T02_countries/states-1,404,Not Found,Thread Group 1-1,text,false,,878,245,1,1,"https://countriesnow.space/api/v0.1/countries/states/q?country=Saint%20Helena,%20Ascension%20and%20Tristan%20da%20Cunha",673,0,0
